@@ -154,7 +154,7 @@ private extension PasswordInputView {
         //configure label
         NSLayoutConstraint.addEqualConstraintsFromSubView(label, toSuperView: self)
         label.textAlignment = .center
-        label.isAccessibilityElement = false
+        label.isAccessibilityElement = true
         
         //configure button
         NSLayoutConstraint.addEqualConstraintsFromSubView(button, toSuperView: self)
